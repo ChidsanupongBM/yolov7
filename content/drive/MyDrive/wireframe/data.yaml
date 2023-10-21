@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/wireframe/train/images
+val: /content/drive/MyDrive/wireframe/train/images
+test: /content/drive/MyDrive/wireframe/train/images
+
+nc: 9
+names: ['button', 'checkbox', 'container', 'footer', 'frame', 'heading', 'input', 'nav', 'text']
+
+roboflow:
+  workspace: jakob-soens
+  project: wireframe-to-code
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jakob-soens/wireframe-to-code/dataset/4
